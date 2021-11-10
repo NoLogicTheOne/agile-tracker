@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import cn from 'classnames'
 
-import { Layout } from '../../../components/Layout'
+import Layout from '../../../components/Layout'
 
 import { getSortedPostsData } from '../../../lib/posts'
 
