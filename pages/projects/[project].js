@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-import Layout from '../../components/layout'
+import Layout from '../../components/Layout'
 
 import { getAllPostIds, getPostData } from '../../lib/posts'
 
@@ -25,7 +25,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Project({ project }) {
-    return <section>
+    return <Layout>
         <Head>
             <title>{project.project}</title>
         </Head>
@@ -37,5 +37,5 @@ export default function Project({ project }) {
                 color: red;
             }
         `}</style>
-    </section>
+    </Layout>
 }
