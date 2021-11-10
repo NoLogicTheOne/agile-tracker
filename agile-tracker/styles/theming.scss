@@ -1,0 +1,9 @@
+.App {
+    --color: red;
+    --background-color: white;
+
+    &_dark {
+        --background-color: black;
+        --color: white;
+    }
+}
